@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Movie Search</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1>Movie Search</h1>
+    <input type="text" id="search-input" placeholder="Search for a movie..." />
+    <div id="movie-list"></div>
+    <div id="watch-options-popup" class="watch-options-popup">
+      <div id="watch-options-content" class="watch-options-content">
+        <div id="watch-options-list">
+          <!-- Watch options will be added dynamically here -->
+        </div>
+        <button id="close-watch-options" class="watch-options-button">
+          Close
+        </button>
+      </div>
+    </div>
+
+    <div id="details-popup" class="details-popup">
+      <div id="details-content" class="details-content">
+        <h2>More Details</h2>
+        <p>OverView: <span id="overview"></span></p>
+        <p>Popularity: <span id="popularity"></span></p>
+        <p>Vote Average: <span id="vote-average"></span></p>
+        <button id="close-details" class="watch-options-button">Close</button>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
